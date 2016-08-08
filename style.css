@@ -3,12 +3,24 @@
   height:200px;
 }*/
 
+
+.render-beers{
+  width:100%;
+}
+
+.dropdown{
+  width:50%;
+
+}
 .beer {
   background-color:gray;
+  width:30%;
   box-sizing: border-box;
-  border: 8px white solid;
-  padding: 1%;
-  height:350px;
+/*  border: 8px white solid;*/
+  margin: 1%;
+  padding:2%;
+  height:410px;
+  border-radius:1%;
 
 }
 
@@ -17,7 +29,7 @@
 }
 
 .beerImage img {
-  width:60%;
+  width:80%;
   height:150px;
   border: 2px solid black;
 }
@@ -30,4 +42,9 @@
   position:absolute;
   top:0;
   right:0;
+}
+
+.rate-input {
+  width:65%;
+  display:inline
 }
