@@ -18,6 +18,10 @@ app.service('beerService', function(){
     beers.push(newBeer);
   }
 
-return {addBeer: addBeer, beers: beers}
+  function removeBeer(index){
+    beers.splice(index,1);
+  }
+
+return {addBeer: addBeer, beers: beers, removeBeer: removeBeer}
 
 })

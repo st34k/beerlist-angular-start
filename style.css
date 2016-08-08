@@ -11,8 +11,23 @@
   height:350px;
 
 }
+
+.beerImage {
+  position:relative;
+}
+
 .beerImage img {
   width:60%;
   height:150px;
   border: 2px solid black;
+}
+
+.remove {
+  height:20px;
+  width: 20px;
+  font-size:20px;
+  color:red;
+  position:absolute;
+  top:0;
+  right:0;
 }

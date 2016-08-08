@@ -6,4 +6,8 @@ app.controller('MainCtrl', function($scope, beerService){
 
   }
 
+  $scope.removeBeer = function(index){
+    beerService.removeBeer(index)
+  }
+
 })
